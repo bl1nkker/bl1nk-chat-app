@@ -1,8 +1,6 @@
 .messageBox {
-    background: #F3F3F3;
     border-radius: 20px;
     padding: 5px 20px;
-    color: white;
     display: inline-block;
     max-width: 80%;
   }
@@ -30,7 +28,7 @@
     display: flex;
     align-items: center;
     font-family: Helvetica;
-    color: #828282;
+    color: var(--message-sender-name-color);
     letter-spacing: 0.3px;
   }
   
@@ -51,17 +49,17 @@
   }
   
   .colorWhite {
-    color: white;
+    color: var(--text-secondary-color);
   }
   
   .colorDark {
-    color: #353535;
+    color: var(--text-primary-color);
   }
   
   .backgroundBlue {
-    background: #2979FF;
+    background: var(--secondary-color);
   }
   
   .backgroundLight {
-    background: #F3F3F3;
+    background: var(--primary-color);
   }

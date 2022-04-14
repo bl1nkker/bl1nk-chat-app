@@ -1,0 +1,16 @@
+:root{
+    --background-color: rgb(0, 0, 0);
+    --primary-color: #6a6767;
+    --accent-color: rgb(255, 255, 255);
+    --secondary-color: rgb(98, 95, 95);
+
+    --text-secondary-color: rgb(255, 255, 255);
+    --text-primary-color: rgb(255, 255, 255);
+    
+    --message-sender-name-color: black;
+
+}
+html{
+    background-color: var(--background-color);
+
+}

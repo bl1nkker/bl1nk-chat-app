@@ -9,6 +9,8 @@
     padding: 5%;
     width: 80%;
     font-size: 1.2em;
+    background-color: var(--primary-color) !important;
+    color: var(--text-primary-color)
   }
   
   input:focus, textarea:focus, select:focus{
@@ -16,10 +18,10 @@
   }
   
   .sendButton {
-    color: #fff !important;
+    color: var(--primary-color) !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #2979FF;
+    background: var(--secondary-color);;
     padding: 20px;
     display: inline-block;
     border: none;
