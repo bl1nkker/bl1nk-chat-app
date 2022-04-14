@@ -14,7 +14,9 @@ function Message({ message: { user, text }, name }) {
         <div className='messageContainer justifyEnd'>
             <p className='sentText pr-10'>{trimmedName}</p>
             <div className='messageBox backgroundBlue'>
-                <p className='messageText colorWhite'>{text}</p>
+                {/* FIXME: Уберите коммент отсюда чтоб баг с отправкой сообщении исправить и удалите 19 строку */}
+                {/* <p className='messageText colorWhite'>{text}</p> */}
+                <p className='messageText colorWhite'>Это не то сообщение которое ты хотел бы видеть.</p>
             </div>
         </div>
         :
@@ -22,7 +24,9 @@ function Message({ message: { user, text }, name }) {
             <div className='messageBox backgroundLight'>
                 <p className='messageText colorDark'>{text}</p>
             </div>
-            <p className='sentText pl-10'>{user}</p>
+            { /* FIXME: Уберите коммент отсюда чтоб баг с отправкой сообщении исправить и удалите 29 строку */}
+            { /* <p className='sentText pl-10'>{user}</p> */}
+            <p className='sentText pl-10'>some_user</p>
         </div>
     )
 }
