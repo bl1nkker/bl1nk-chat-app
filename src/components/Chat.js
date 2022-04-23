@@ -29,7 +29,7 @@ function Chat({ location }) {
     const [message, setMessage] = useState('')
 
     // Here we specified our back-end location
-    const ENDPOINT = 'https://bl1nk-chat-app.herokuapp.com/'
+    const ENDPOINT = 'http://localhost:8080/'
 
     // This function responses for user connection to the server
     useEffect( () => {

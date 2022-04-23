@@ -10,12 +10,9 @@ function Input({ message, setMessage, sendMessage }) {
             placeholder='Type a message...'
             value={message}
             onChange={ (event) => setMessage(event.target.value) }
-            // Вот эту строку надо тож анкомментнуть
-            // onKeyPress={ (event) => event.key === 'Enter' && sendMessage(event) }
+            onKeyPress={ (event) => event.key === 'Enter' && sendMessage(event) }
             />
-            {/* FIXME:Уберите коммент отсюда чтоб баг с отправкой сообщении исправить и удалите 16 строку */}
-            {/* <button className='sendButton' onClick={ (event) => sendMessage(event)}>Send</button> */}
-            <button className='sendButton'>Send</button>
+            <button className='sendButton' onClick={ (event) => sendMessage(event)}>Send</button>
         </form>
     )
 }

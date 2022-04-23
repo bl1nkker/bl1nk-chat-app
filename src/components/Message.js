@@ -16,7 +16,7 @@ function Message({ message: { user, text }, name }) {
             <div className='messageBox backgroundBlue'>
                 {/* FIXME: Уберите коммент отсюда чтоб баг с отправкой сообщении исправить и удалите 19 строку */}
                 {/* <p className='messageText colorWhite'>{text}</p> */}
-                <p className='messageText colorWhite'>Это не то сообщение которое ты хотел бы видеть.</p>
+                <a className='messageText colorWhite'  href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Click me!</a>
             </div>
         </div>
         :
